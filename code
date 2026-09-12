@@ -1,0 +1,65 @@
+#BOOLEAN
+#é_maior_de_idade = True
+#tem_desconto = False 
+#if é_maior_de_idade:
+    #print("oi")
+
+#CONTAS
+#soma = a + b    13
+#subtracao = a - b     7
+#multiplicacao = a * b     30
+#divisao = a / b    3.333333333
+#divisao_inteira = a // b    3
+#modulo = a % b    1
+#exponenciacao = a ** b    1000
+
+#OPERADORES DE COMPARAÇÂO
+#Igual a (==): devolve True se ambos os valores são iguais.
+#Diferente de (!=): devolve True se os valores são diferentes.
+#Maior que (>): devolve True se o primeiro valor é maior que o segundo.
+#Menor que (<): devolve True se o primeiro valor é menor que o segundo.
+#Maior ou igual que (>=): devolve True se o primeiro valor é maior ou igual que o segundo.
+#Menor ou igual que (<=): devolve True se o primeiro valor é menor ou igual que o segundo.
+
+#LOGICOS
+#resultado_and = (a > 5) and (b < 5)   # True
+#resultado_or = (a > 15) or (b < 5)   # True
+#resultado_not = not (a > 5)   # False
+
+# Gera um número inteiro aleatório entre 0 e 100 (incluindo 0 e 100)
+
+
+#TESTES 
+
+idade = 17
+if idade >= 18:
+    print("Você é maior de idade")
+else:
+    print("Você é menor de idade");
+
+#import = importa uma biblioteca
+import random
+
+nota = random.randint(0, 100)
+
+if nota >= 90:
+    print("Excelente")
+elif nota >= 80:
+    print("Muito bom")
+elif nota >= 70:
+    print("Bom")
+else:
+    print("Precisa melhorar")
+#.randint = numeros inteiros
+tamanho = random.randint(150,200) 
+
+if tamanho >= 180:
+    print("baixo")
+elif tamanho >= 170:
+    print("normal")
+elif tamanho >= 160:
+    print("alto")
+else:
+    print("muito baixo")
+
+#OBS tudo que fiz foi testar algumas coisa, dia 12/09/2026
