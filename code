@@ -62,4 +62,52 @@ elif tamanho >= 160:
 else:
     print("muito baixo")
 
-#OBS tudo que fiz foi testar algumas coisa, dia 12/09/2026
+#LAÇO DE REPETIÇÃO
+#for variável in sequência:
+
+    # Bloco de código a repetir instruções
+
+alturas = [1.60,1.80]
+
+for altura in alturas:
+    print(altura)
+#while condição:
+
+    # Bloco de código a repetir
+    
+
+contador = 0
+
+
+while contador < 5:
+
+    print(contador)
+    contador += 1
+
+for i in range(10):
+
+    if i % 2 == 0:
+       continue
+    print(i)
+
+#OBS primeiro dia 12/09/2026
+
+
+
+
+        
+   
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
